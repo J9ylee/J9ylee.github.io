@@ -1,0 +1,71 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background: #362f27;
+	color: #a69785;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	
+}
+
+
+#container {
+	width: 875px;
+	background: rgba(0,0,0,.4);
+	margin: auto;
+	margin-top:100px;
+	margin-bottom:75px;
+	padding: 60px;
+}
+
+nav a {
+	color: #dea2c5;
+}
+
+figure a {
+	color: #a5dea2;
+}
+
+main a {
+	color: #949293;
+}
+
+a:hover {
+	color: white;
+
+}
+
+nav ul{
+list-style:none;
+padding-left:0px;
+
+
+}
+
+figure {
+
+	margin:0px;
+	
+}
+
+figure img {
+
+	width:800px;
+	margin-left:20px;
+}
