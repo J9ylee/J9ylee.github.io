@@ -1,0 +1,56 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: black; /* Set the background of the entire page to black */
+}
+
+html {
+	/* Standard text-settings below */
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+header {
+	font-family: 'Koulen', cursive;
+	align-items: center;
+	justify-content: center;
+	height: 10px); /* Adjust the height and remove 20px for the gap */
+	background-color: black; /* Set the background of the header to black */
+	
+}
+
+	header h1 {
+		color: #d7a0f2;
+		font-size: 3em; /* Increase the font size */
+		font-weight: bold; /* Add font weight for emphasis */
+		letter-spacing: 2px; /* Add letter spacing for readability */
+		text-shadow: 2px 2px 4px white;
+	}
+
+	header h2 {
+		color: #b875d9;
+		font-size: 2em; /* Increase the font size */
+		font-weight: bold; /* Add font weight for emphasis */
+		letter-spacing: 1px; /* Add letter spacing for readability */
+		text-shadow: white; 
+	}
+
+body {
+	font-family: 'Homemade Apple', cursive;
+	color: #815696;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2em; /* Increase the font size for body text */
+	line-height: 1.6em; /* Adjust the line height for body text */
+}
+footer {
+	font-family: 'Koulen', cursive;
+	font-size:1em;
+}
+#container {
+	/* Add your container styles here */
+}
+
