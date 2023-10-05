@@ -16,7 +16,7 @@ header {
 	font-family: 'Koulen', cursive;
 	align-items: center;
 	justify-content: center;
-	height: 10px); /* Adjust the height and remove 20px for the gap */
+	height: 10px; /* Adjust the height and remove 20px for the gap */
 	background-color: black; /* Set the background of the header to black */
 	
 }
@@ -51,6 +51,7 @@ footer {
 	font-size:1em;
 }
 #container {
-	/* Add your container styles here */
+
+
 }
 
