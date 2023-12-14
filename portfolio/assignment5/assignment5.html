@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: floralwhite;
+		}
+
+		
+		@keyframes myAnimation {
+			0% {
+				transform: scale(1);
+			}
+
+			50% {
+				transform: scale(1.2);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+
+        #something:hover, #something2:hover, #something3:hover, #something4:hover, #something5:hover, #something6:hover, #something7:hover, #something8:hover, #something9:hover, #something10:hover {
+            animation: alternate; 
+            transform: scale(1.2);
+
+		}
+
+		
+		#something {
+			width: 100px;
+			height: 100px;
+			background-color: #FFD9E5; /* Pastel pink */
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+
+
+
+		}
+
+		#something2 {
+			width: 150px;
+			height: 150px;
+			background-color: #C1E1EF; /* Pastel blue */
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+
+		#something3 {
+			width: 120px;
+			height: 120px;
+			background-color: #D0FFB3; /* Pastel green */
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+		}
+
+		#something4 {
+			width: 80px;
+			height: 80px;
+			background-color: #FFE8A3; /* Pastel yellow */
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+		}
+
+		#something5 {
+			width: 200px;
+			height: 200px;
+			background-color: #E6C0FF; /* Pastel purple */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		#something6 {
+			width: 100px;
+			height: 100px;
+			background-color: #C7EAA3; /* Pastel green */
+			position: absolute;
+			top: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		#something7 {
+			width: 120px;
+			height: 120px;
+			background-color: #FFC7D3; /* Pastel pink */
+			position: absolute;
+			top: 50%;
+			left: 20px;
+			transform: translateY(-50%);
+		}
+
+		#something8 {
+			width: 80px;
+			height: 80px;
+			background-color: #A3D9D9; /* Pastel blue */
+			position: absolute;
+			top: 70%;
+			left: 70%;
+		}
+
+		#something9 {
+			width: 100px;
+			height: 100px;
+			background-color: #D9A3E0; /* Pastel purple */
+			position: absolute;
+			top: 70%;
+			right: 20px;
+		}
+
+		#something10 {
+			width: 150px;
+			height: 150px;
+			background-color: #FFD9A3; /* Pastel orange */
+			position: absolute;
+			top: 80%;
+			right: 50%;
+			transform: translateX(50%);
+		}
+	</style>
+</head>
+<body>
+	<div id="something"></div>
+	<div id="something2"></div>
+	<div id="something3"></div>
+	<div id="something4"></div>
+	<div id="something5"></div>
+	<div id="something6"></div>
+	<div id="something7"></div>
+	<div id="something8"></div>
+	<div id="something9"></div>
+	<div id="something10"></div>
+</body>
+</html>
