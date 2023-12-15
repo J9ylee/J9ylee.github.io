@@ -13,8 +13,8 @@ html {
 
 
 .small-image {
-	width: 250px; /* Adjust the width as needed */
-	height: auto; /* This maintains the aspect ratio */
+	width: auto; /* Adjust the width as needed */
+	height: 100px; /* This maintains the aspect ratio */
   }
 
 body {
