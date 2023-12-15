@@ -1,0 +1,79 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: #3498db;
+	color: #555;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #34495e;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #e74c3c;
+}
+
+main {
+	border: 2px solid #34495e;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+/* Page-specific styles */
+h1, h2, h3, h4, h5, h6 {
+	color: #34495e;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+#container {
+	
+}
+
+
+
+
