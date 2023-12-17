@@ -1,0 +1,44 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0fca3;
+  }
+  
+  .container {
+	text-align: center;
+  }
+  
+  h1 {
+	color: #333;
+  }
+  
+  #bakingForm {
+	margin-bottom: 20px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: rgb(224, 47, 186);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #45a049;
+  }
+  
+  #suggestion {
+	font-size: 18px;
+	font-weight: bold;
+  }
+  

@@ -1,0 +1,25 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const placesToEat = [
+      'Italian restaurant',
+      'Sushi bar',
+      'Burger joint',
+      'Mexican restaurant',
+      'Pizza place',
+      // Add more options as needed
+    ];
+  
+    const placeForm = document.getElementById('placeForm');
+    const resultDiv = document.getElementById('result');
+  
+    placeForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      const randomPlace = getRandomPlaceToEat();
+      resultDiv.textContent = `You should eat at: ${randomPlace}`;
+    });
+  
+    function getRandomPlaceToEat() {
+      const randomIndex = Math.floor(Math.random() * placesToEat.length);
+      return placesToEat[randomIndex];
+    }
+  });
+  
